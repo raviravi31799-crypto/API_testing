@@ -23,6 +23,7 @@ public class CreateUserTest {
 	  System.out.println("Statuscode:"+response.statusCode());
 	  response.prettyPrint();
 	  Assert.assertEquals(response.getStatusCode(), 201);
+
 	  Assert.assertEquals(response.jsonPath().getString("title"), "My First Post");
   }
 }
