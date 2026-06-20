@@ -3,10 +3,23 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.tests.PracticeTest1"/>
+      <class name="com.trainees.HeadTest"/>
       <class name="com.tests.ApiValidationTest"/>
       <class name="com.tests.SeleniumTest"/>
-      <class name="com.tests.GetUserTest"/>
+      <class name="com.trainees.Login_traineesTest"/>
+      <class name="com.trainees.OptionsTest"/>
+      <class name="com.tests.PatchTest"/>
+      <class name="com.trainees.Update_patchTest"/>
       <class name="com.tests.CreateUserTest"/>
+      <class name="com.tests.DeleteTest"/>
+      <class name="com.trainees.GetTraineeTest"/>
+      <class name="com.tests.QueryparamTest"/>
+      <class name="com.tests.PracticegetTest"/>
+      <class name="com.trainees.CreateTraineeTest"/>
+      <class name="com.tests.GetUserTest"/>
+      <class name="com.trainees.Update_putTest"/>
+      <class name="com.trainees.Delete_traineesTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
