@@ -10,11 +10,8 @@ import io.restassured.response.Response;
 public class Update_patchTest {
   @Test
   public void f() {
-	  String payload = """
-	  		
-	  		{
-		      "company": "Qualcomm"
-		  }""";
+	  String payload =
+			  "{\"company\":\"Qualcomm\"}";
 	  Response response=RestAssured.given().contentType(ContentType.JSON).body(payload).when().patch("http://localhost:3000/trainees/01");
 	  System.out.println("statuscode:"+response.statusCode());
 	  response.prettyPrint();
