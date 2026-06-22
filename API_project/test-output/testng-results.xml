@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-18T08:34:15 IST" name="Default suite" finished-at="2026-06-18T08:34:25 IST" duration-ms="10118">
+  <suite started-at="2026-06-22T08:39:01 IST" name="Default suite" finished-at="2026-06-22T08:39:05 IST" duration-ms="4196">
     <groups>
     </groups>
-    <test started-at="2026-06-18T08:34:15 IST" name="Default test" finished-at="2026-06-18T08:34:25 IST" duration-ms="10118">
-      <class name="com.tests.GetcoursestructureTest">
-        <test-method signature="f()[pri:0, instance:com.tests.GetcoursestructureTest@34123d65]" started-at="2026-06-18T08:34:15 IST" name="f" finished-at="2026-06-18T08:34:25 IST" duration-ms="10055" status="PASS">
+    <test started-at="2026-06-22T08:39:01 IST" name="Default test" finished-at="2026-06-22T08:39:05 IST" duration-ms="4196">
+      <class name="com.tests.GetAll_Institution">
+        <test-method signature="f()[pri:0, instance:com.tests.GetAll_Institution@1500b2f3]" started-at="2026-06-22T08:39:01 IST" name="f" finished-at="2026-06-22T08:39:05 IST" duration-ms="3956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.tests.GetcoursestructureTest -->
+      </class> <!-- com.tests.GetAll_Institution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
