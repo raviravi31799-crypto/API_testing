@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-22T08:39:01 IST" name="Default suite" finished-at="2026-06-22T08:39:05 IST" duration-ms="4196">
+  <suite started-at="2026-06-22T20:42:16 IST" name="Default suite" finished-at="2026-06-22T20:42:34 IST" duration-ms="17882">
     <groups>
     </groups>
-    <test started-at="2026-06-22T08:39:01 IST" name="Default test" finished-at="2026-06-22T08:39:05 IST" duration-ms="4196">
-      <class name="com.tests.GetAll_Institution">
-        <test-method signature="f()[pri:0, instance:com.tests.GetAll_Institution@1500b2f3]" started-at="2026-06-22T08:39:01 IST" name="f" finished-at="2026-06-22T08:39:05 IST" duration-ms="3956" status="PASS">
+    <test started-at="2026-06-22T20:42:16 IST" name="Default test" finished-at="2026-06-22T20:42:34 IST" duration-ms="17882">
+      <class name="com.tests.GetRoleTest">
+        <test-method signature="getRoleTest()[pri:0, instance:com.tests.GetRoleTest@5276d6ee]" started-at="2026-06-22T20:42:16 IST" name="getRoleTest" finished-at="2026-06-22T20:42:25 IST" duration-ms="9612" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.tests.GetAll_Institution -->
+        </test-method> <!-- getRoleTest -->
+        <test-method signature="getRolewithoutToken()[pri:0, instance:com.tests.GetRoleTest@5276d6ee]" started-at="2026-06-22T20:42:25 IST" name="getRolewithoutToken" finished-at="2026-06-22T20:42:26 IST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRolewithoutToken -->
+        <test-method signature="invalidEmailLogin()[pri:0, instance:com.tests.GetRoleTest@5276d6ee]" started-at="2026-06-22T20:42:26 IST" name="invalidEmailLogin" finished-at="2026-06-22T20:42:29 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailLogin -->
+        <test-method signature="invalidLogin()[pri:0, instance:com.tests.GetRoleTest@5276d6ee]" started-at="2026-06-22T20:42:29 IST" name="invalidLogin" finished-at="2026-06-22T20:42:29 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidpasswordLogin()[pri:0, instance:com.tests.GetRoleTest@5276d6ee]" started-at="2026-06-22T20:42:29 IST" name="invalidpasswordLogin" finished-at="2026-06-22T20:42:33 IST" duration-ms="4270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidpasswordLogin -->
+        <test-method signature="validLogin()[pri:0, instance:com.tests.GetRoleTest@5276d6ee]" started-at="2026-06-22T20:42:33 IST" name="validLogin" finished-at="2026-06-22T20:42:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- com.tests.GetRoleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
